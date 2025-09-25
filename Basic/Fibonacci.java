@@ -8,7 +8,13 @@ public class Fibonacci {
         System.out.println("Enter the num value");
         int num = sc.nextInt();
         int f1 = 0, f2 = 1, f3;
-        System.out.print(f1 + " " + f2);
+        if (num == 0) {
+            System.out.print(0);
+            // } else if(num==1) {
+            // System.out.print(0+" "+1);
+        } else {
+            System.out.print(f1 + " " + f2);
+        }
         for (int i = 2; i < num; i++) {
             f3 = f1 + f2;
             System.out.print(" " + f3 + "");
