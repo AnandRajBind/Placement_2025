@@ -19,13 +19,11 @@ public class Factorial_recu {
         }
         return n + SumOfSeries(n - 1);
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the num Value ");
         int num = sc.nextInt();
         System.out.printf("The Factorial number of %d is : %d \n", num, factorial(num));
         System.out.printf("The Sum of Series %d is : %d \n", num, SumOfSeries(num));
-
     }
 }
