@@ -17,12 +17,12 @@ public class Input_array {
 // output
         System.out.println("Your array element is: ");
         for (int i = 0; i < n; i++) {
-             System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         // element ka double (multiple) print.
-         System.out.println("\n Double of your array element is: ");
+        System.out.println("\n Double of your array element is: ");
         for (int i = 0; i < n; i++) {
-             System.out.print(arr[i]*2 + " ");
+            System.out.print(arr[i] * 2 + " ");
         }
     }
 }
