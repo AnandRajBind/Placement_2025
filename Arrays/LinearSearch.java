@@ -1,4 +1,6 @@
 
+// Find/Search  the target element in the given array.
+
 import java.util.Scanner;
 
 public class LinearSearch {
