@@ -14,8 +14,7 @@ public class Reverse_Using_Extra_Array {
         int rev[] = new int[n]; // empty array same size of original array.
         int start = 0;
         int end = n - 1;
-
-
+        
         System.out.println("Enter the Array Element");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
