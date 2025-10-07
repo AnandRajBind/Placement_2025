@@ -14,12 +14,10 @@ public class prime_without_count {
         }
         return true;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter num Value");
         int num = sc.nextInt();
-
         if (prime(num)) {
             System.out.println(num + " is a Prime Number.");
         } else {
