@@ -1,6 +1,5 @@
 
 // Find/Search  the target element in the given array.
-
 import java.util.Scanner;
 
 public class LinearSearch {
@@ -20,17 +19,17 @@ public class LinearSearch {
         System.out.println("Enter the Target Element");
         int Target = sc.nextInt();
         boolean found = false;
-//  Search The given Target Element
+//      Search The given Target Element
         for (int i = 0; i < n; i++) {
             if (arr[i] == Target) {
-                found=true;
-                 break;
+                found = true;
+                break;
             }
         }
         if (found) {
-            System.out.printf(" %d Element present in the given array \n" , Target);
-         } else {
-            System.out.printf(" %d Element is not present in the given array \n" , Target);
+            System.out.printf(" %d Element present in the given array \n", Target);
+        } else {
+            System.out.printf(" %d Element is not present in the given array \n", Target);
         }
     }
 }
