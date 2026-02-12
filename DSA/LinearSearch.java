@@ -1,13 +1,13 @@
-// search using boolean flag 
+// Linear search using boolean flag.
 
 import java.util.Scanner;
 
-public class linear_search {
+public class LinearSearch {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int arr[] = {10, 20, 40, 30, 40, 50, 60, 70};
-        System.out.println("Enter the target Elemet");
+        System.out.println("Enter the target Element");
         int target = sc.nextInt();
         boolean found = false;
         for (int i = 0; i < arr.length; i++) {
