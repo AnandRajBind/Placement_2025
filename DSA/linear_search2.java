@@ -1,4 +1,4 @@
-//  linear search using using without boolean flag. 
+//  linear search using without boolean flag. 
 
 import java.util.Scanner;
 
@@ -14,7 +14,6 @@ class linear_search2 {
     }
 
     public static void main(String args[]) {
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the target element");
         int target = sc.nextInt();

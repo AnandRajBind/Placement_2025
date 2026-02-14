@@ -16,7 +16,6 @@ public class linear_search4 {
         // Create result array
         int list[] = new int[count];
         int index = 0;
-
         // Second Pass → Store indices
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {

@@ -1,4 +1,4 @@
-// Linear search using boolean flag.
+// Linear search using boolean flag. using the first occurence 
 
 import java.util.Scanner;
 
