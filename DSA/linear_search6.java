@@ -6,15 +6,13 @@ public class linear_search6 {
 
     public static int searching(int arr[], int target) {
 
-        int list[];
-        int index;
-        for (int i = 0; i <= 0; i++) {
+        int lastIndex = -1;
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
-                list[index]=i;
-                return i;
+                lastIndex = i;
             }
         }
-        return -1;
+        return lastIndex;
     }
 
     public static void main(String[] args) {
