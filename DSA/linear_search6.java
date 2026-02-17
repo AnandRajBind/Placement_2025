@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 // Linear search. Last Occurrence of Target. traverse  left to right .
 public class linear_search6 {
 
