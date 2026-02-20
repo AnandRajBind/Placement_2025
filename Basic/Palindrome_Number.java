@@ -25,7 +25,6 @@ public class Palindrome_Number {
         } else {
             System.out.printf("%d is not palindrome number \n", rev);
         }
-
         // print sum of digit 
          System.out.printf(" your digit is : %d and sum of digit is: %d \n", original, sum);
 
