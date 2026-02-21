@@ -1,6 +1,5 @@
 
 public class Array {
-
     public static void main(String[] args) {
 
         // **********************Method 1****************************
@@ -18,7 +17,7 @@ public class Array {
         }
 
 
-        // **********************Method 1****************************
+        // **********************Method 2****************************
         int arr2[] = new int[5];// declare array size of 5 
         arr2[2] = 145; // initlization
         System.out.println(arr2[2]);

@@ -17,4 +17,3 @@ public class Max_Value {
         System.out.println("Max Value of array element is "+max);
     }
 }
- 

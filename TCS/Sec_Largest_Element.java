@@ -4,7 +4,7 @@ public class Sec_Largest_Element {
 
     public static void main(String[] args) {
 
-        int arr[] = {10, 20, 5, 30, 25};
+        int arr[] = {10, 20, 5, 30, 30, 30, 25};
 
         int first = Integer.MIN_VALUE;
         int second = Integer.MIN_VALUE;
@@ -17,6 +17,6 @@ public class Sec_Largest_Element {
                 second = current;
             }
         }
-        System.out.println(second);
+        System.out.println("Second largest is: " + second + " and first largest is: " + first);
     }
 }
