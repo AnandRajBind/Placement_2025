@@ -1,4 +1,4 @@
-
+// rotate array element using extra array.
 public class Rotate_element {
 
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class Rotate_element {
         int n = arr.length;//total number of elements in the array
         int temp[] = new int[n];
 
+        // Right rotation using Extra Array.
         for (int i = 0; i < arr.length; i++) {
             int newIndex = (i + k) % n;
           //  int newIndex = (i - k + n) % n;// Left rotation formula:
