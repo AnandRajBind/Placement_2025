@@ -1,15 +1,15 @@
 
 public class Rotate_without_Extra_Array {
 
-    public static void swap(int arr[],int start, int end) {
-int temp=arr[start];
-arr[start]=arr[end];
-arr[end]=temp;
-}
+    public static void swap(int arr[], int start, int end) {
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+    }
 
     public static void reverse(int arr[], int start, int end) {
         while (start < end) {
-            swap(arr,start,end);
+            swap(arr, start, end);
             start++;
             end--;
         }
@@ -20,6 +20,8 @@ arr[end]=temp;
         int k = 2;// number of position to swap
         int n = arr.length;
         k = k % n;
-        reverse(arr, 0, n-1);
+        reverse(arr, 0, n - 1);
+        reverse(arr, 0, k - 1);
+        reverse(arr, k, n - 1);
     }
 }
