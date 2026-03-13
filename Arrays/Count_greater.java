@@ -16,7 +16,6 @@ public class Count_greater {
             }
             System.out.print(arr[i]+" ");
         }
-
         System.out.printf("\n %d Element is greater than given array element\n",count );
     }
 }

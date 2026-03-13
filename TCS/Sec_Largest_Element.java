@@ -18,5 +18,6 @@ public class Sec_Largest_Element {
             }
         }
         System.out.println("Second largest is: " + second + " and first largest is: " + first);
-    }
 }
+}
+

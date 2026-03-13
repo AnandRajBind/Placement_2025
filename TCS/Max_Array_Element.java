@@ -1,6 +1,5 @@
 
 public class Max_Array_Element {
-
     public static void main(String[] args) {
         int arr[] = {10, 20, 30, 40, 50};
         int max = arr[0];
@@ -10,7 +9,5 @@ public class Max_Array_Element {
              }
         }
         System.out.println("The largest number is:"+ max);
-
-        
     }
 }
