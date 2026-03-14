@@ -21,7 +21,7 @@ public class remove_duplicate {
             set.add(arr[i]);
         }
         // System.out.println(set);
-
+        
         // remove duplicate from the array by using Using Extra Array.
         int size = 0;
         boolean found = false;

@@ -7,7 +7,7 @@ public class Missing_Number {
     public static void main(String[] args) {
         int arr[] = {1, 2, 3, 4, 5, 7, 8, 9, 10};
         int n = arr.length + 1;  // one number missing hai so use the +1.
-
+        
         int actualSum =0, expectedSum , missing;
         // calculate actualSum
         for (int i = 0; i < arr.length; i++) {
