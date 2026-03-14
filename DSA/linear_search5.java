@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 // Linear search. Last Occurrence of Target. traverse right to left.
 public class linear_search5 {
-
+    
     public static int searching(int arr[], int target) {
 
         for (int i = arr.length-1; i >= 0; i--) {
