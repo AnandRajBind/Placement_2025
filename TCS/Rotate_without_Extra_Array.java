@@ -14,7 +14,6 @@ public class Rotate_without_Extra_Array {
             end--;
         }
     }
-
     public static void main(String[] args) {
         int arr[] = {1, 2, 3, 4, 5};
         int k = 2;// number of position to swap
