@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-// Write a program to reverse the array without using any extra array.
+// Write a program to reverse the array   using   extra array.
 public class Reverse_Using_Extra_Array {
 
     public static void main(String[] args) {

@@ -3,7 +3,6 @@
 import java.util.Scanner;
 
 public class Reverse_using_Two_pointer {
-
     //  print using method 
     public static void print(int arr[]) {
         System.out.println("Reverse Array is: ");
@@ -12,14 +11,12 @@ public class Reverse_using_Two_pointer {
         }
         System.out.println();
     }
-
 //  swap using method 
     public static void swap(int arr[], int start, int end) {
         int temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("How many element you want to enter in the array");

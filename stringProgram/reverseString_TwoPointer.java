@@ -1,12 +1,11 @@
 
-public class reverseString {
+public class reverseString_TwoPointer {
 
     public static void swap(char arr[], int start, int end) {
         char temp = arr[start];
         arr[start] = arr[end];
         arr[end]=temp;
     }
-
     public static void reverse(char arr[], int start, int end) {
         while (start < end) {
             swap(arr, start, end);
