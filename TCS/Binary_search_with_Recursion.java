@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Binary_search_with_Recursion {
 
     public static int binarySearch(int arr[], int target, int low, int high) {
-
         // Base Case 
         int mid = (low + high) / 2;
         if (low > high) {

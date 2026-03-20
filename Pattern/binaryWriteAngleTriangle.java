@@ -1,11 +1,9 @@
-
-import java.util.Scanner;
+import java.util.*;
 
 public class binaryWriteAngleTriangle {
 
     public static void triangle(int num) {
         int start = 1;
-
         for (int i = 0; i <= num; i++) {
             if (i % 2 == 0) {
                 start = 1;
@@ -23,6 +21,6 @@ public class binaryWriteAngleTriangle {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the how many line print triangle");
         int num = sc.nextInt();
-        triangle(num);
+        triangle(5);
     }
 }

@@ -15,7 +15,6 @@ public class Palindrome_Number {
             rem = num % 10;
             rev = rev * 10 + rem;
             num = num / 10;
-
             // for sum of  Digit
             sum=sum+rem;
         }

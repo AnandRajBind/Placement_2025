@@ -40,6 +40,7 @@ public class remove_duplicate {
                 size++;
             }
         }
+        
         // print array element after remove duplicate value.
         for (int i = 0; i < size; i++) {
             System.out.println(result[i]);

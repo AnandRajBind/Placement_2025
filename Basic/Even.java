@@ -17,5 +17,3 @@ class Even {
         System.out.println(sum);
     }
 }
-
-

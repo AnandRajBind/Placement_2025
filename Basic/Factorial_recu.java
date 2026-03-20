@@ -27,3 +27,4 @@ public class Factorial_recu {
         System.out.printf("The Sum of Series %d is : %d \n", num, SumOfSeries(num));
     }
 }
+
