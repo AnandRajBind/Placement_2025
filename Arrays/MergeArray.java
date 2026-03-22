@@ -1,4 +1,4 @@
-// merge array into single arry (same order after merge ) does not matter array sorted or unsorted . 
+// merge array into single arry (same order after merge ) does not matter array sorted or unsorted by using extra array . 
 
 public class MergeArray {
     public static void main(String[] args) {
