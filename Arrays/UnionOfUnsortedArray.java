@@ -8,7 +8,6 @@ public class UnionOfUnsortedArray {
         int arr2[] = { 06, 3, 13, 14, 2 };
 
         HashSet<Integer> set = new HashSet<>();
-
         for (int i = 0; i < arr1.length; i++) {
             set.add(arr1[i] );
         }
