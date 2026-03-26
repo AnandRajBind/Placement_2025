@@ -2,8 +2,8 @@
 
 public class MergeArray {
     public static void main(String[] args) {
-        int arr1[] = { 16,17,18,19,20 };
-        int arr2[] = {1,2,3,4,5,};
+        int arr1[] = { 16, 17, 18, 19, 20 };
+        int arr2[] = { 1, 2, 3, 4, 5, };
 
         int result[] = new int[arr1.length + arr2.length];
         int k = 0;

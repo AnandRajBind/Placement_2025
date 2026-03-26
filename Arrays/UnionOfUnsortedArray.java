@@ -2,10 +2,10 @@
 import java.util.HashSet;
 
 // Best approach → HashSet
-public class UnionOfUnsortedArray {
+public class UnionOfUnSortedArray {
     public static void main(String[] args) {
-        int arr1[] = { 5, 1, 5, 1, 3, 4, 3, 4, 2 };
-        int arr2[] = { 06, 3, 13, 14, 2 };
+        int arr1[] = {95,32, 1, 5,10,15,20,40 };
+        int arr2[] = {10,30, 1,5,10,25,30,85,10 };
 
         HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < arr1.length; i++) {
