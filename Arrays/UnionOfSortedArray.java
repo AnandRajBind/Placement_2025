@@ -22,8 +22,8 @@ public class UnionOfSortedArray {
                     result[k++] = arr2[j];
                 j++;
                 // equal
-            } else {
-                if (k == 0 || result[k - 1] != arr2[i])
+            } else if(arr1[i]==arr2[j]){
+                if (k == 0 || result[k - 1] != arr1[i])
                     result[k++] = arr1[i];
                 i++;
                 j++;
