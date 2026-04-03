@@ -15,7 +15,7 @@ public class StringBuff {
 
         // string buffer capacity  method
         sb.capacity();
-        System.out.println(sb);
+        System.out.println(sb.capacity());
 
         // string buffer reverse method
         sb.reverse();

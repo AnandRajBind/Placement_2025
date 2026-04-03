@@ -19,6 +19,5 @@ public class reverse_string_using_recurson {
         reverse(arr, 0, arr.length - 1);
         System.out.println(str);
         System.out.println(arr);
- 
     }
 }

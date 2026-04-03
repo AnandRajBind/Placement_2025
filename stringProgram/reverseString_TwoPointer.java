@@ -21,6 +21,6 @@ public class reverseString_TwoPointer {
         reverse(arr, 0, arr.length - 1);
         System.out.println(str);
         System.out.println(arr); // character arry directly print hota because java assume internally
-                                 // string/text.
+     // string/text.
     }
 }
