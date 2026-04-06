@@ -3,8 +3,8 @@ public class reverse_Words_Two_Pointer {
 
         String str = new String("Anand Raj Bind");
 
-        int start = 0, end = str.length() - 1;
         char charArray[] = str.toCharArray(); // convert String to character Array.
+        int start = 0, end = charArray.length - 1;
         // step one reversed whole string.
         while (start < end) {
             char temp = charArray[start];
@@ -17,12 +17,13 @@ public class reverse_Words_Two_Pointer {
 
         // step 2 reverse each words.
 
-        int wordStart = 0, wordEnd = str.length() - 1;
+        int wordStart = 0;
         for (int i = 0; i < charArray.length; i++) {
 
             if (charArray[i] == ' ' || i == charArray.length - 1) {
+                int wordEnd;
 
-                if (wordEnd == i-1) {
+                if (charArray[i] == ' ') {
                     wordEnd = i - 1;
                 } else {
                     wordEnd = i;
