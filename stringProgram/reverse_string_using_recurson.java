@@ -13,7 +13,6 @@ public class reverse_string_using_recurson {
     }
 
     public static void main(String[] args) {
-
         String str = new String("abcd");
         char arr[] = str.toCharArray();
         reverse(arr, 0, arr.length - 1);

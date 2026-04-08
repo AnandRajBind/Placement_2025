@@ -16,6 +16,7 @@ public class Frequency_of_Array {
                 map.put(current, 1);//Insert element with frequency 1.
             }
         }
+
         for (Integer key : map.keySet()) {
             System.out.println(key + "->" + map.get(key));//get method Returns current frequency.
         }

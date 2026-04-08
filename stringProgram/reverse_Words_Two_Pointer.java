@@ -5,6 +5,8 @@ public class reverse_Words_Two_Pointer {
 
         char charArray[] = str.toCharArray(); // convert String to character Array.
         int start = 0, end = charArray.length - 1;
+        System.out.println(charArray[5]);
+
         // step one reversed whole string.
         while (start < end) {
             char temp = charArray[start];
@@ -19,7 +21,6 @@ public class reverse_Words_Two_Pointer {
 
         int wordStart = 0;
         for (int i = 0; i < charArray.length; i++) {
-
             if (charArray[i] == ' ' || i == charArray.length - 1) {
                 int wordEnd;
 
@@ -28,12 +29,10 @@ public class reverse_Words_Two_Pointer {
                 } else {
                     wordEnd = i;
                 }
-
                 while (wordStart < wordEnd) {
                     char temp = charArray[wordStart];
                     charArray[wordStart] = charArray[wordEnd];
                     charArray[wordEnd] = temp;
-
                     wordStart++;
                     wordEnd--;
                 }
