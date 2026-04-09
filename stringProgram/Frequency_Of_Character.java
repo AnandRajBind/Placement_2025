@@ -7,7 +7,6 @@ public class Frequency_Of_Character {
 
         HashMap<Character, Integer> map = new HashMap<>();
 
-
         for (char current : charArray) {
             if (current != ' ') {
                 if (map.containsKey(current)) {
