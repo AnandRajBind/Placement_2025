@@ -10,12 +10,13 @@ public class Frequency_Of_Character {
         for (char current : charArray) {
             if (current != ' ') {
                 if (map.containsKey(current)) {
-                    map.put(current, map.get(current) + 1);
+                    map.put(current, map.get(current) + 1);// getOrDefault() returns the value of the key if present otherwise returns the default value
                 } else {
                     map.put(current, 1);
                 }
             }
         }
+        // keySet() returns all the keys present in the HashMap
         for (Character key : map.keySet())
             System.out.println(key + "->" + map.get(key));
     }
