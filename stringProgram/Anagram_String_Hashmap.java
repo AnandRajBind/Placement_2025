@@ -1,13 +1,13 @@
 
 import java.util.HashMap;
 
-public class Angram_String_Hashmap {
+public class Anagram_String_Hashmap {
     public static void main(String[] args) {
         String str1 = "listen";
         String str2 = "silent";
 
         if (str1.length() != str2.length()) {
-            System.out.println("Not Angram");
+            System.out.println("Not Anagram");
             return;
         }
         HashMap<Character, Integer> map = new HashMap<>();
@@ -25,17 +25,19 @@ public class Angram_String_Hashmap {
         // Step 2 → decrese the frequency of str2 using str1.
         for (char ch : str2.toCharArray()) {
             if (!map.containsKey(ch)) {
-                System.out.println("Not Angram");
+                System.out.println("Not Anagram");
             }
-            map.put(ch, map.get(ch) - 1);
+            else {
+                map.put(ch, map.get(ch) - 1);
+            }
         }
-        
+
         // Step 3 → check all values
-        for (int value : map.values()) {
+        for (int value : map.values()) {// map.values() method are used to return the all values.
             if (value != 0) {
-                System.out.println("Not Angram");
+                System.out.println("Not Anagram");
             }
         }
-        System.out.println("Angram");
+        System.out.println("Anagram");
     }
 }
