@@ -20,7 +20,7 @@ public class Count_Vowel_Consonents {
                     consonants++;
                 }
             }
-            System.out.println(Character.isLetter(ch));
+            // System.out.println(Character.isLetter(ch));
         }
         System.out.println("Vowels is: " + vowels + " Consonets is: " + consonants);
         sc.close();

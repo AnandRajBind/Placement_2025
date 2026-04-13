@@ -6,16 +6,15 @@
 
 public class Maximum_subArray {
     public static void main(String[] args) {
-        int arr[] = {10, 20, 30, -95, 50, 60, 10, -19};
+        int arr[] = { 10, 20, 30, -95, 50, 60, 10, -19 };
         // Index 0 already used in initialization.
-        //Agar i = 0 se start karoge to first element double count ho jayega.
+        // Agar i = 0 se start karoge to first element double count ho jayega.
         int currentSum = arr[0], maxSum = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
-            currentSum = Math.max(arr[i], currentSum + arr[i]);
+            currentSum = Math.max(arr[i], currentSum + arr[i]);// Kadane Algorithm formula
             maxSum = Math.max(maxSum, currentSum);
         }
         System.out.println(maxSum);
     }
 }
-
