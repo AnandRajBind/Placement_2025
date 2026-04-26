@@ -5,10 +5,9 @@ import java.util.HashSet;
 public class IntersectionOfUn_SortedArray {
     public static void main(String[] args) {
         int arr1[] = { 10, 50, 60, 20, 10, 30, 40, 50, 60 };
-        int arr2[] = { 15, 20, 1, 20, 30, 90, 62 };
+        int arr2[] = { 15, 20, 1, 20, 30, 90, 62 ,10};
         HashSet<Integer> set = new HashSet<>();
-
-        // Store arr1 elements in set(Only usnique vaue is store in hashset)
+        // Store arr1 elements in set(Only unique vaue is store in hashset)
         for (int i = 0; i < arr1.length; i++) {
             set.add(arr1[i]);
         }

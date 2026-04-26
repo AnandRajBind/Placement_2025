@@ -18,7 +18,7 @@ public class Rotate_Array {
         int n = arr.length;
         int start = 2; // rotate/swap array 2 to 5 indexes tak.
         int end = 5;
-
+        
         while (start < end) {
             int temp = arr[start];
             arr[start] = arr[end];

@@ -8,7 +8,6 @@ public class MergeTwoSortedArrays {
 
         int result[] = new int[n1 + n2];
         int i = 0, j = 0, k = 0;
-
         while (i < n1 && j < n2) {
             // ascending order
             if (arr1[i] < arr2[j]) { // arr1[i] >= arr2[j] desecending array print karne ke liye use this condition.

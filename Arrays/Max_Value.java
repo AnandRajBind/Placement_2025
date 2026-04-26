@@ -4,7 +4,7 @@ public class Max_Value {
 
     public static void main(String[] args) {
         // int arr[] = {10, 56, 84, 55, 84, 5};
-        int arr[] = {-1,-10, -56, -84, -55, -84, -5};
+        int arr[] = {10,-1,-10, -56, -84,10, -55, -84, -5};
 
         // int max = 0;
         // int max=Integer.MIN_VALUE;

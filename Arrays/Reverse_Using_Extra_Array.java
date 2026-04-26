@@ -25,12 +25,6 @@ public class Reverse_Using_Extra_Array {
             start++;
             end--;
         }
-        // main logic using for loop
-        // for (int i = 0; i < n; i++) {
-        //     rev[i] = arr[n - 1 - i]; // last element se copy
-        // }
-
-        
         System.out.println("Reverse Array");
         for (int i = 0; i < rev.length; i++) {
             System.out.println(rev[i]);
