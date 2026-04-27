@@ -15,8 +15,6 @@ public class Array {
         for (int i = 0; i < 5; i++) {
             System.out.print(arr[i] + " ");
         }
-
-
         // **********************Method 2****************************
         int arr2[] = new int[5];// declare array size of 5 
         arr2[2] = 145; // initlization
